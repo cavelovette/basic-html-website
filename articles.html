@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles | Your Name</title>
+
+    <!-- SEO meta tags -->
+    <meta name="description" content="Articles about HTML, semantic markup, forms and SEO written by Your Name." />
+    <meta name="keywords" content="articles, blog, HTML, semantic HTML, SEO, forms" />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.example.com/articles.html" />
+
+    <!-- Open Graph (social sharing) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Articles | Your Name" />
+    <meta property="og:description" content="Articles about HTML, semantic markup, forms and SEO written by Your Name." />
+    <meta property="og:url" content="https://www.example.com/articles.html" />
+    <meta property="og:image" content="https://www.example.com/images/preview.png" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Articles | Your Name" />
+    <meta name="twitter:description" content="Articles about HTML, semantic markup, forms and SEO written by Your Name." />
+  </head>
+  <body>
+    <header id="site-header">
+      <a href="index.html" id="logo">
+        <img src="images/logo.png" alt="Your Name logo" width="32" height="32" />
+        <span>your name</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html" aria-current="page">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="hero">
+        <h1>Articles</h1>
+        <p>Notes and tutorials from my learning journey</p>
+      </section>
+
+      <section id="articles" aria-labelledby="articles-heading">
+        <h2 id="articles-heading">Latest Articles</h2>
+
+        <article>
+          <header>
+            <h3>Getting Started with Semantic HTML</h3>
+            <p>Published on <time datetime="2025-01-10">January 10, 2025</time></p>
+          </header>
+          <p>Why header, nav, main, section and footer matter for structure, accessibility and SEO.</p>
+          <a href="#">Read more</a>
+        </article>
+
+        <article>
+          <header>
+            <h3>A Beginner's Guide to HTML Forms</h3>
+            <p>Published on <time datetime="2025-02-14">February 14, 2025</time></p>
+          </header>
+          <p>How inputs, labels and validation attributes work together to build accessible forms.</p>
+          <a href="#">Read more</a>
+        </article>
+
+        <article>
+          <header>
+            <h3>SEO Meta Tags Every Page Needs</h3>
+            <p>Published on <time datetime="2025-03-05">March 5, 2025</time></p>
+          </header>
+          <p>The title, description and Open Graph tags that help search engines and social platforms.</p>
+          <a href="#">Read more</a>
+        </article>
+      </section>
+    </main>
+
+    <footer id="site-footer">
+      <p>&copy; All rights reserved 2025</p>
+    </footer>
+  </body>
+</html>

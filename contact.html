@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Your Name</title>
+
+    <!-- SEO meta tags -->
+    <meta name="description" content="Contact Your Name for frontend development projects, collaborations or job opportunities." />
+    <meta name="keywords" content="contact, hire frontend developer, contact form" />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.example.com/contact.html" />
+
+    <!-- Open Graph (social sharing) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact | Your Name" />
+    <meta property="og:description" content="Contact Your Name for frontend development projects, collaborations or job opportunities." />
+    <meta property="og:url" content="https://www.example.com/contact.html" />
+    <meta property="og:image" content="https://www.example.com/images/preview.png" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Contact | Your Name" />
+    <meta name="twitter:description" content="Contact Your Name for frontend development projects, collaborations or job opportunities." />
+  </head>
+  <body>
+    <header id="site-header">
+      <a href="index.html" id="logo">
+        <img src="images/logo.png" alt="Your Name logo" width="32" height="32" />
+        <span>your name</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="hero">
+        <h1>Contact</h1>
+        <p>I would love to hear from you</p>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Get in Touch</h2>
+        <p>Have a question or want to work together? Send me a message.</p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Contact form</legend>
+
+            <p>
+              <label for="name">Name</label><br />
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </p>
+
+            <p>
+              <label for="email">Email</label><br />
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </p>
+
+            <p>
+              <label for="phone">Phone (optional)</label><br />
+              <input type="tel" id="phone" name="phone" />
+            </p>
+
+            <p>
+              <label for="subject">Subject</label><br />
+              <select id="subject" name="subject">
+                <option value="general">General enquiry</option>
+                <option value="project">Project proposal</option>
+                <option value="job">Job opportunity</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="message">Message</label><br />
+              <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+            </p>
+
+            <p>
+              <input type="checkbox" id="subscribe" name="subscribe" />
+              <label for="subscribe">Subscribe to my newsletter</label>
+            </p>
+
+            <p>
+              <button type="submit">Send message</button>
+              <button type="reset">Clear</button>
+            </p>
+          </fieldset>
+        </form>
+
+        <aside id="other-contact" aria-labelledby="other-heading">
+          <h3 id="other-heading">Other ways to reach me</h3>
+          <address>
+            Email: <a href="mailto:hello@example.com">hello@example.com</a><br />
+            GitHub: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/yourname</a>
+          </address>
+        </aside>
+      </section>
+    </main>
+
+    <footer id="site-footer">
+      <p>&copy; All rights reserved 2025</p>
+    </footer>
+  </body>
+</html>
